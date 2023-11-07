@@ -1,0 +1,59 @@
+baseURL = "https://monego.github.io"
+languageCode = "en-US"
+title = "Vinicius Monego"
+theme = "paper"
+paginate=4
+copyright = "Vinicius Monego"
+
+[taxonomies]
+tag = "tags"
+
+
+[author]
+name = "Vinicius Monego"
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 4
+
+[params]
+email = "monego@posteo.net"
+linkedin = "vmonego"
+github = "monego"
+mastodon = "https://mastodon.online/@monaho"
+enableKofi = false
+kofi = ""
+math = true
+    
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = false
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = true
+    simple = false
+  [privacy.twitter]
+    disable = true
+    enableDNT = false
+    simple = false
+  [privacy.vimeo]
+    disable = true
+    simple = false
+  [privacy.youtube]
+    disable = true
+    privacyEnhanced = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[outputFormats.RSS]
+  mediatype = "application/rss+xml"
+  baseName = "feed"
+  isPlainText = true
+  notAlternative = true
+  noUgly = true
