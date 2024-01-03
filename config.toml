@@ -17,6 +17,11 @@ name = "About"
 url = "/about"
 weight = 4
 
+[[menu.main]]
+name = "Projects"
+url = "/projects"
+weigth = 2
+
 [params]
 email = "monego@posteo.net"
 linkedin = "vmonego"
