@@ -14,11 +14,15 @@ draft: false
 
 ## Web Development
 
+- [electronicslab-website](https://github.com/monego/electronicslab-website): Website for a university lab. Using Django, Vue, REST Framework and Postgres. Has an admin interface featuring a turnstile, item loans and item registration.
+
 - [WebVO](https://github.com/monego/WebVO): Virtual observatory to run queued astronomical experiments.
 
 ## Tooling/Others
 
 - [clitag](https://codeberg.org/monego/clitag): CLI audio tagger, an interface for Python's [mutagen](https://github.com/quodlibet/mutagen) library.
+
+- [dfconv](https://github.com/monego/dfconv/): CLI tool to convert between dataframe formats.
 
 - [ppt](https://codeberg.org/monego/ppt): A CLI (in Bash) tool to download and unpack binaries from release pages, with a purpose similar to that of the [Obtainium](https://github.com/ImranR98/Obtainium) app from F-Droid.
 
